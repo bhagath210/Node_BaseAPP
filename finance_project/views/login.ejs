@@ -1,0 +1,25 @@
+<%include layouts/top.ejs%>
+<link rel= "stylesheet" href = "/../css/login.css" type = "text/css">
+	  
+</head>	
+<body>
+        <%include layouts/header.ejs%>
+    <div class = "col-7 login-box">
+		<form action="/chits/validateUser" method="POST">
+	    <div class = " col-9 main">
+		    <div class = "col-12 form-row">
+		   <label for = "name" >User name: </label>
+		   <input type = "text" id = "name" autocomplete= "off"   name = "uname" placeholder="User name" required>
+	    </div>	
+	
+	    <div class = "col-12 form-row">
+		   <label for = "favcolor" >Password : </label>
+		   <input type = "password" id = "pswd" autocomplete= "off" name = "pwd" placeholder=" Password" required>
+	    </div>	
+		<button class="col-11 button"><input type="submit" value="login"></button>
+		<button class = "col-5 foget-pswd-btn"><a href="#home">Forgot Password</a></button>
+		<button class = "col-5 Register-btn"><a href="/chits/registration">New User ? Sign up</a></button>
+		</div>
+	</form>
+    </div>
+    <%include layouts/footer.ejs%>

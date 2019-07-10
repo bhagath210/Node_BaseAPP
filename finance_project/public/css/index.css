@@ -1,0 +1,156 @@
+.intro{
+    background-image: url('/../images/Sustainable-finance3.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.quote{
+    padding-top: 76px;
+}
+.quote p{
+    width: 62%;
+    font-size: 30px;
+    font-family: cursive;
+}
+.quote .space{
+    width: 62%;
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 140px;
+}
+
+
+/* Testimonials Section
+--------------------------------*/
+#testimonials {
+    background: #f6f6f6;
+    padding: 80px 0;
+  }
+  
+  #testimonials .profile {
+    text-align: center;
+  }
+  
+  #testimonials .profile .pic {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+    width: 260px;
+  }
+  
+  #testimonials .profile .pic img {
+    max-width: 100%;
+  }
+  
+  #testimonials .profile h4 {
+    font-weight: 700;
+    color: #03C4EB;
+    margin-bottom: 5px;
+  }
+  
+  #testimonials .profile span {
+    color: #333333;
+  }
+  
+  #testimonials .quote {
+    position: relative;
+    background: #fff;
+    padding: 60px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+  }
+  
+  #testimonials .quote b {
+    display: inline-block;
+    font-size: 22px;
+    left: -9px;
+    position: relative;
+    top: -8px;
+  }
+  
+  #testimonials .quote small {
+    display: inline-block;
+    right: -9px;
+    position: relative;
+    top: 4px;
+  }
+
+/*# Sections
+--------------------------------------------------------------*/
+/* Sections Common
+--------------------------------*/
+.section-title {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title-divider {
+  width: 50px;
+  height: 3px;
+  background: #03C4EB;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+
+/* team section */
+#team {
+    background: #fff;
+    padding: 80px 0 60px 0;
+  }
+  
+  #team .member {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #team .member .pic {
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+  }
+  
+  #team .member .pic img {
+    max-width: 100%;
+  }
+  
+  #team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  
+  #team .member .social {
+    margin-top: 15px;
+  }
+  
+  #team .member .social a {
+    color: #b3b3b3;
+  }
+  
+  #team .member .social a:hover {
+    color: #03C4EB;
+  }
+  
+  #team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }

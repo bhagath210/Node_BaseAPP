@@ -1,0 +1,30 @@
+.page-button{
+    background: #aec0e5;
+    border: none;
+    padding: 5px 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+.page-header{
+    text-align: center;
+    /* padding-left: 221px; */
+    padding-right: 182px;
+}
+.wrapper{
+    padding-left: 137px;
+}
+a{
+    text-decoration: none;
+
+}
+.a-inside {
+    color: #fff;
+    background-color: #e98b19;
+    padding: 4px;
+
+}
+#section{
+    height: 630px;
+}

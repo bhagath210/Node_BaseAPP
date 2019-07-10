@@ -1,0 +1,87 @@
+<%include layouts/top.ejs %>
+        <link href="/../css/registration.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+        <div class="main-container">
+                       <%include layouts/header.ejs%>
+<div id="main">
+        <div class="body">
+                <p>* Required Field</p>
+        <div class="body-first">
+                <form action="/chits/registration/send" method="POST">
+                <div class="in">
+                        <div class="names">First Name</div>
+                        <div class="text">
+                                <input type="text" name="firstname" id="fname">
+                        </div>
+                        <div class="data">
+
+                        </div>
+                </div>
+        <div class="in">
+                <div class="names">Last Name</div>
+                <div class="text">
+                        <input type="text" name="lastname" id="lname">
+                </div>
+                <div class="data">
+
+                </div>
+        </div>
+        <div class="in">
+                <div class="names"><span style="color:red">*</span>UserId</div>
+                <div class="text">
+                        <input type="text" name="userid"  id="userid" onblur="check()" >
+                </div>
+                <div class="data" id="data2" style="color:red">
+                      
+                </div>
+        </div>
+        <div class="in">
+                <div class="names"><span style="color:red">*</span>Password</div>
+                <div class="text">
+                        <input type="password" name="psw1" id="psw1" onchange="password()" >
+                </div>
+                <div class="data">
+                        Passwords must be at least 6 characters long and are case sensitive
+                </div>
+        </div>
+
+        <div class="in">
+                <div class="names"><span style="color:red">*</span>Verify Password</div>
+                <div class="text">
+                        <input type="password" name="psw2" id="psw2" onblur="password()">
+                </div>
+                <div class="data" id="psw-data" style="color:red">
+                       
+                </div>
+        </div>
+
+        <div class="in">
+                <div class="names">Email</div>
+                <div class="text">
+                        <input type="email" name="email" id="mail">
+                </div><div class="data">
+
+                </div>
+        </div>
+        <div class="in">
+                <div class="names">PhoneNo</div>
+                <div class="text">
+                        <input type="text" name="phoneno" maxlength="20" id="phone">
+                </div>
+                <div class="data">
+
+                </div>
+        </div>
+
+        <div class="sub">
+                <button onclick="submit()">Submit</button>
+                <button onclick="cancel()">Cancel</button>
+        </div>
+</form>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="/../js/ajax.js"></script>
+<%include layouts/footer.ejs%>

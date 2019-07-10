@@ -1,0 +1,29 @@
+<%include layouts/top.ejs%>
+<style>
+    .one{
+        margin: 68px 120px;
+    }
+    .one label{
+        font-size: 17px;
+    /* padding-left: 20px; */
+    padding-right: 31px;
+    }
+    .two{
+        margin: -27px 120px;
+    }
+</style>
+</head>
+<body>
+        <%include layouts/header.ejs%>
+<div>
+    <form action="/chits/rolechange" method="POST">
+        <div class="one">
+            <label>UserName</label>
+            <input type="text" name='uname'>
+        </div>
+        <div class="two">
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</div>
+<%include layouts/footer%>

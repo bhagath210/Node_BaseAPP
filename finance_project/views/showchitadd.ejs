@@ -1,0 +1,58 @@
+<%include layouts/top.ejs%>     
+       <link rel="stylesheet" href="/../css/plean.css">
+</head>
+
+<body>
+    <%include layouts/header.ejs%> 
+    <div id="main">
+        <form action="/adminchit/add" method="POST">
+       <div class="one">
+           <h1>Add Chit</h1>
+          <hr>
+          <div class="final">
+                <div class="name">user Name</div>
+                 <div class="input">
+                     <input type="text" name="username" id="chit" >
+                 </div>
+             </div>
+           <div class="final">
+               <div class="name">Group Name</div>
+                <div class="input">
+                    <input type="text" name="chitname" id="chit" >
+                </div>
+            </div>
+         
+           <div class="final">
+               <div class="name">Total Numbers</div>
+               <div class="input">
+                   <input type="text" name="members" id="total" >
+                </div>
+            </div>
+           
+           <div class="final">
+               <div class="name">Total Months</div>
+               <div class="input">
+                   <input type="text" name="months" id="month" >
+                </div>
+            </div>
+
+           
+           <div class="final">
+               <div class="name">Monthaly Installment</div>
+               <div class="input">
+                   <input type="text" name="installment" id="installment" >
+                </div>
+            </div>
+           
+           <div class="final"
+           ><div class="name">Chit Aount</div>
+           <div class="input">
+               <input type="text" name="totalamount" id="totalamount" >
+            </div>
+        </div>
+        
+                    <div class="final"><div class="input1"><input type="submit" value="submit" ></div></div>
+        </div>
+    </form>
+    </div>
+<%include layouts/footer.ejs%>
